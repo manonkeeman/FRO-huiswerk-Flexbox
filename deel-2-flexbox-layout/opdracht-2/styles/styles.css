@@ -10,7 +10,7 @@ nav {
 }
 
 .col-2 {
-    flex: 1 0 auto
+    flex: 1 0 auto;
     display: flex;
     flex-direction: column;
 
@@ -22,12 +22,12 @@ header, footer {
 .main {
     display: flex;
     flex-direction: row;
-    flex: 1 0 auto
+    flex: 1 0 auto;
 }
 
 article {
-    flex-basis: auto
-    flex-grow: 1
+    flex-basis: auto;
+    flex-grow: 1;
 }
 
-/*het is me niet gelukt de col-2 items te verdelen in de volledige hoogte van de page...*/
+

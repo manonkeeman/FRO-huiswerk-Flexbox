@@ -1,1 +1,58 @@
-/*Schrijf hier jouw css*/
+/* Algemene resets */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header en navigatie */
+header {
+    background-color: #F2F3D9;
+    padding: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Introductietekst */
+.intro-text {
+    text-align: center;
+    margin: 40px;
+}
+
+/* Sectie met rode blokken */
+.red-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    background-color: #DC9E82;
+    padding: 40px;
+    height: 500px;
+}
+
+.red-blocks article {
+    flex: 1;
+    max-width: 280px;
+    height: 350px;
+    background-color: #C16E70;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.red-blocks p {
+    font-size: 14px;
+    color: white;
+}
