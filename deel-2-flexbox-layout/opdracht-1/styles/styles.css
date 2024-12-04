@@ -1,1 +1,43 @@
-/*Schrijf hier jouw CSS*/
+/*opdracht 1 */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header,
+footer {
+    flex: 0 0 auto;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+}
+
+nav,
+aside {
+    flex: 0 1 20%;
+}
+
+article {
+    flex: 2 1 auto;
+}
+
+article {
+    order: 1;
+}
+
+aside {
+    order: 2;
+}
+
+nav {
+    order: 3;
+}
+
+/* einde opdracht 1 */
+
+
+ */

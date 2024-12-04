@@ -1,1 +1,33 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+nav {
+    flex: 0 0 20%;
+    flex-direction: column;
+}
+
+.col-2 {
+    flex: 1 0 auto
+    display: flex;
+    flex-direction: column;
+
+}
+
+header, footer {
+    flex: 0 0 100px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 auto
+}
+
+article {
+    flex-basis: auto
+    flex-grow: 1
+}
+
+/*het is me niet gelukt de col-2 items te verdelen in de volledige hoogte van de page...*/

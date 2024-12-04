@@ -1,1 +1,75 @@
-/*Schrijf hier jouw CSS*/
+/*opdracht 1 */
+
+.opdracht-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* einde opdracht 1 */
+
+/*opdracht 2 */
+.opdracht-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  flex: 1;
+}
+
+.opdracht-2 li {
+  flex: 1;
+}
+/* einde opdracht 2 */
+
+/* opdracht 3 */
+
+.opdracht-3 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.opdracht-3 #top-left {
+  align-self: flex-start;
+}
+
+.opdracht-3 #centered {
+  align-self: center;
+}
+.opdracht-3 #bottom-right {
+  align-self: flex-end;
+}
+/* einde opdracht 3 */
+
+/* opdracht 4 */
+
+.opdracht-4 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+/* einde opdracht 4 */
+
+/* opdracht 5*/
+
+.opdracht-5 .column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opdracht-5 ul {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+  row-gap: 30px;
+}
+
+.opdracht-5 li {
+  text-align: center;
+}
+
+/*einde opdracht 5 */
